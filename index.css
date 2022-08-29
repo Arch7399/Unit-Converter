@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    background-image: url("https://us.123rf.com/450wm/annazasimova/annazasimova1904/annazasimova190400006/124106824-rulers-vector-measuring-tool-centimeters-and-inches-measuring-scale-cm-metrics-indicator-scale-for-a.jpg?ver=6");
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 50px;
+  width: 550px;
+  height: 729px;
+  border: none;
+}
+
+.upper-container {
+  height: 285px;
+  background-color: #6943FF;
+}
+
+.lower-container {
+  display: grid;
+  grid-row: auto;
+  padding: 15px 7px;
+  height: 444px;
+  background-color: #1F2937;
+}
+.lower-container div {
+  margin: auto;
+  border: none;
+  width: 500px;
+  height: 108px;
+  background-color: #273549;
+}
+.lower-container div h2 {
+  margin-top: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #CCC1FF;
+}
+.lower-container div p {
+  margin-top: -15px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h2 {
+  height: 38px;
+  top: 33px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+}
+.user-input {
+  padding: 5px 5px;
+  margin-top: 20px;
+  width: 210px;
+  height: 51.23px;
+  background-color: #6943FF;
+  border: 1px solid #D1D5DB;
+  border-radius: 4px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.convert {
+  position: relative;
+  margin-top: 30px;
+  width: 117px;
+  height: 42px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border: none;
+  border-radius: 5px;
+}
+
